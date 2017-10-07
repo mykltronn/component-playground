@@ -1,0 +1,25 @@
+
+.navigation {
+  border-bottom: 2px solid grey;
+  padding: 20px;
+  background-color: steelblue;
+  color: white;
+}
+
+.navigation-nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navigation-title {
+  margin-bottom: 20px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.selected {
+  color: black;
+}

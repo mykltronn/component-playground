@@ -1,1 +1,7 @@
+a {
+  color: inherit;
+}
 
+a:active {
+  color: inherit;
+}
