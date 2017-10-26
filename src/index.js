@@ -8,14 +8,16 @@ import Layout from './app/components/layout/Layout'
 import Splash from './app/components/splash/Splash';
 import Navigation from './app/components/navigation/Navigation';
 import Organization from './app/components/organization/Organization';
+import Buttons from "./app/components/buttons/Buttons";
 
 ReactDOM.render(
   <BrowserRouter>
     <Layout>
       <Switch>
-        <Route path="/navigation" component={Navigation}/>
-        <Route path="/organization" component={Organization}/>
-        <Route path="/" component={Splash}/>
+        <Route path="/navigation" component={Navigation} />
+        <Route path="/organization" component={Organization} />
+        <Route path="/buttons" component={Buttons} />
+        <Route path="/" component={Splash} />
       </Switch>
     </Layout>
   </BrowserRouter>,

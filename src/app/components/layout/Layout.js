@@ -30,6 +30,13 @@ const Layout = (props) => {
             Navigation
           </NavLink>
 
+          <NavLink
+            className="nav-link"
+            activeClassName="selected"
+            exact to="/buttons">
+            Buttons
+          </NavLink>
+
         </nav>
       </div>
       {props.children}
