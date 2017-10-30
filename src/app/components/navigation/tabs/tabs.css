@@ -1,0 +1,35 @@
+.Tabs {
+  width: 95vw;
+  margin: auto;
+}
+
+.Tab {
+  height: 100%;
+}
+
+.Tab h3 {
+  margin: 0px;
+}
+
+.tab-navigation {
+  display: flex;
+  /* justify-content: space-around; */
+  list-style: none;
+}
+
+.tab-content {
+  padding: 20px;
+  border: 1px solid black;
+  border-top: none;
+}
+
+.tab-li {
+  text-align: center;
+  flex: 1;
+  border: 1px solid black;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.tab-selected {
+  border-bottom: none;
+}

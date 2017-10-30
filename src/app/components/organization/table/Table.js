@@ -45,8 +45,8 @@ export default class Table extends Component {
     let query = event.target.value.toLowerCase();
     let filteredData = [];
 
-    orderData.map(row => { // For each row
-      row.map(item => { // push any row that matches query on to new array
+    orderData.map(row => { // eslint-disable-line
+      row.map(item => { // eslint-disable-line
         if (item.toLowerCase().includes(query)) {
           filteredData.push(row)
         }
@@ -116,10 +116,10 @@ export default class Table extends Component {
             <tr>
               {tableHeader.map((header, index) => {
                 return <TH
+                  key={index}
                   header={header}
                   index={index}
                   sortColumn={this.sortColumn}
-                  header={header}
                   isReversed={this.state.isReversed}
                 />
               })}

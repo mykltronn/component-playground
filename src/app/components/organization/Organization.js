@@ -1,5 +1,4 @@
 import React from 'react';
-import Tabs from './tabs/Tabs'
 import Table from './table/Table'
 
 const Organization = () => {
